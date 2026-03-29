@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My ePortfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><span class="icon"><img class="icon-img" src="Media/icons/globe.svg" alt=""></span> Faraponov Aleksandr — ePortfolio</h1>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="university.html">University</a>
+      <a href="work.html">Work</a>
+      <a href="other.html">Other</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="profile-pic">
+          <!-- Replace with your actual photo -->
+          <img src="Media/photo_own.jpg" alt="Profile photo">
+        </div>
+      </div>
+      <div class="hero-right">
+        <h2>Hi — I'm <strong>Faraponov Aleksandr</strong></h2>
+        <p class="lead">Young Geoinformatics Enthusiast, who is passionate about software development, mobility, and mountains.</p>
+        <div class="hero-info">
+          <p><strong>Email (work):</strong> a.faraponov@geomagis.at</p>
+          <p><strong>Email (student):</strong> aleksandr.faraponov@stud.plus.ac.at</p>
+          <p><strong>Location:</strong> Salzburg | St. Pölten, Österreich </p>
+          <p><strong>Currently:</strong> M.Sc. Applied Geoinformatics @ PLUS Salzburg | GIS-Entwickler @ GeoMagis</p>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">GIS</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag green">QGIS</span>
+          <span class="skill-tag green">ArcGIS</span>
+          <span class="skill-tag coral">Remote Sensing</span>
+          <span class="skill-tag coral">Spatial Analysis</span>
+          <span class="skill-tag coral">Sociology</span>
+          <span class="skill-tag coral">Urban Science</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="timeline">
+      <h2><span class="section-icon"><img class="icon-img" src="Media/icons/pin.svg" alt=""></span> Timeline</h2>
+      <div class="timeline-horizontal">
+        <button class="tl-nav tl-prev" id="tl-prev" aria-label="Previous">‹</button>
+
+        <div class="timeline-scroller" id="timeline-scroller" tabindex="0">
+          <div class="timeline-item" data-details="Encountered Bachelor Studies in Management of Urban Spatial Development at RANEPA, Moscow. Minoring in sociology, this was the place where I developed a strong interest towards maps and GIS.">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="tl-content"><strong>September 2019</strong><div class="tl-label"> Bachelor in Urban Science @ RANEPA</div></div>
+          </div>
+
+          <div class="timeline-item" data-details="Completed Bachelor's degree in Management of Urban Spatial Development from RANEPA, Moscow.">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="tl-content"><strong>June 2023</strong><div class="tl-label">Graduated RANEPA</div></div>
+          </div>
+
+          <div class="timeline-item" data-details="Enrolled in M.Sc. Applied Geoinformatics at Paris Lodron University of Salzburg (PLUS). Courses on software development, spatial simulation and different GIS-aspects.">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="tl-content"><strong>March 2024</strong><div class="tl-label">Started M.Sc. @ PLUS Salzburg</div></div>
+          </div>
+
+          <div class="timeline-item" data-details="Interest in maps, further in web mapping, representation of spatial patterns, obtaining of geospatial data and development of tools">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="tl-content"><strong> Birth - 2025 </strong><div class="tl-label">Interest in Maps (followed by GIS)</div></div>
+          </div>
+
+          <div class="timeline-item" data-details="Completing M.Sc. studies, preparing thesis, and contributing to GIS-scene in Austria.">
+            <div class="dot" aria-hidden="true"></div>
+            <div class="tl-content"><strong>2026</strong><div class="tl-label">Present</div></div>
+          </div>
+        </div>
+
+        <button class="tl-nav tl-next" id="tl-next" aria-label="Next">›</button>
+      </div>
+
+      <div id="timeline-details" class="timeline-details" aria-live="polite"></div>
+    </section>
+
+    <section id="highlights" class="with-grid">
+      <h2><span class="section-icon"><img class="icon-img" src="Media/icons/target.svg" alt=""></span> Highlights</h2>
+      <ul>
+        <li>Bachelor in Management of Urban Spatial Development — RANEPA, Moscow (2019–2023).</li>
+        <li>M.Sc. Applied Geoinformatics — PLUS Salzburg (ongoing)</li>
+        <li>Working for the GIS community in Austria</li>
+        <li>Experienced with open source GIS solution</li>
+      </ul>
+    </section>
+
+    <section id="quick-links">
+      <h2><span class="section-icon"><img class="icon-img" src="Media/icons/link.svg" alt=""></span> Quick Links</h2>
+      <div class="social-links">
+        <a href="university.html" class="social-link">
+          <span class="social-icon"><img class="icon-img" src="Media/icons/graduation.svg" alt=""></span> University Projects
+        </a>
+        <a href="work.html" class="social-link">
+          <span class="social-icon"><img class="icon-img" src="Media/icons/briefcase.svg" alt=""></span> Work Experience
+        </a>
+        <a href="other.html" class="social-link">
+          <span class="social-icon"><img class="icon-img" src="Media/icons/web.svg" alt=""></span> Interests & Links
+        </a>
+        <a href="https://github.com/yourusername" target="_blank" class="social-link">
+          <span class="social-icon"><img class="icon-img" src="Media/icons/gear.svg" alt=""></span> GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">© 2026 Aleksandr Faraponov · Built with the help of Copilot and Claude </footer>
+<script src="scripts.js" defer></script>
+</body>
+</html>
